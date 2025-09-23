@@ -56,3 +56,28 @@ _NOTE:_ sync reset can be thought of muxing the D input with the reset/set value
 Different flop types behaviour in waveform:
 
 ![alt text](image-8.png)
+
+Synthesis of different types of flops in yosys:
+
+- async reset:
+
+![alt text](image-9.png)
+
+- async set:
+
+![alt text](image-10.png)
+
+- sync reset:
+
+![alt text](image-11.png)
+
+#### Optimisations
+1. when you need to multiply a number  by powers of 2, concatenating input with log2(2..4..8..16) number of 0 on the right is equivalent.
+
+![alt text](image-12.png)
+
+2. multiplying a 3 bit number a with 9 can b restructured to a<<3 + a which is aa.
+
+![alt text](image-13.png)
+
+
