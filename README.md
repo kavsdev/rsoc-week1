@@ -1,4 +1,10 @@
 # RISC-V Reference SoC Tapeout Program VSD - Week1
+## [Day1](#day1---introduction-to-verilog-rtl-design-and-synthesis)
+## [Day2](day2.md)
+## [Day3](day3.md)
+## [Day4](day4.md)
+## [Day5](day5.md)
+
 ## Day1 - Introduction to Verilog RTL design and Synthesis
 ### skywater130 digital pdk setup
 - make a `VLSI` directory in the home folder
