@@ -32,14 +32,13 @@ Cloning and retiming:
 - opt_check - constant 0 propagation in a mux
 - opt_check2 - constant 1 propagation in a mux
 - opt_check3 - constant propagation in ternary mux eq `y=a?(c?b:0):0`
-- opt_check4 - mux eq `y=a?(b?(a&c):c):(!c)`
-
+- opt_check4 - mux eq `y=a?(b?(a&c):c):(!c)`<br>
     <img src="image-23.png" alt="boolean reduction opt_check4" width="400"/>
 
-- multiple_module_opt - constant propagation and unused pins in hierarchy
+- multiple_module_opt - constant propagation and unused pins in hierarchy<br>
     <img src="image-26.png" width="400"/>
 
-- multiple_module_opt2 - instance pruning and constant propagation
+- multiple_module_opt2 - instance pruning and constant propagation<br>
     <img src="image-27.png" width="400"/>
 
 #### opt_check synthesis result:
